@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import MyState from './components/MyState';
-
-
+import ClassState from "./components/ClassState";
+import FunctionalState from "./components/FunctionalState";
 
 function App() {
   return (
-    <MyState />
+    <div className="App">
+      <ClassState />
+
+      <FunctionalState />
+    </div>
   );
 }
 
